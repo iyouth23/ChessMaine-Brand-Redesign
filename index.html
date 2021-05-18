@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            ChessMaine Redesigned
+        </title>
+        <meta name="author" content="Ian Youth">
+        <meta name="description" content="A re-working of the website chessmaine.net">
+
+        <!--Source: class lecture-->
+        <meta name="viewport" content="width-device-width, initial-scale=1, maximum-scale=1">
+
+        <!--Source: https://www.bootstrapcdn.com/-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" 
+            integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" 
+            crossorigin="anonymous">
+
+        <link href="style.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+
+        <!--Bootstrap documentation: https://getbootstrap.com/docs/4.0/layout/grid/ */-->
+
+
+        <!--HEADER-->
+            <div id="header">
+                <div id="inner-header" class="container">
+                    <div class="row">
+                        <div id="center-header" class="col-12">
+                            <p id="chessmaine">♔ ChessMaine ♔</p>
+                            <p id="subtitle">Serving Players and Hosts Since 1974</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div id="upcoming-tournaments-button" class="col-4">
+                            <form action="#hr-1">
+                                <input type="submit" value="This Week's Tournaments" class="button">
+                            </form>
+                        </div>
+                        <div id="news-button" class="col-4">
+                            <form action="#hr-2">
+                                <input type="submit" value="News" class="button">
+                            </form>
+                        </div>
+                        <div id="become-a-host-button" class="col-4">
+                            <form action="#hr-3">
+                                <input type="submit" value="Become a Host" class="button">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        <!--FIRST IMAGE-->
+            <div id="all-site-content">
+                <div id="opening-image" class="container">
+                    <div class="row">
+                        <div id="hero-image-div-1" class="col-12">
+                            <!--Source: https://downeast.com/our-towns/maine-school-of-science-mathematics/-->
+                            <img id="hero-image-1" src="images/tournament-hero-image.jpg" alt="Southwestern Championship">
+                        </div>
+                    </div>
+                </div>
+
+        <!--INTRO TEXT-->
+                <div id="first-text-block">
+                    <div id="intro-text">
+                        <p id="first-sentence">
+                            ChessMaine is Maine's premier chess organization, hosting up to 50 tournaments for 750 players annually.
+                        </p>
+                        <div id="tournament-conversion">
+                            <form action="https://wustlcse204.github.io/06-brand-redesign-iyouth23">
+                                <input type="submit" value="Find Tournaments" class="button">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <hr>
+
+        <!--OUR STORY-->
+                <div id="our-story-and-navigation" class="container">
+                    <p class="title">Our Story</p>
+                    <p id="the-story">
+                        In 1971, Maine chess great Roger Morin founded ChessMaine to promote and
+                        encourage chess activity in Maine. Morin aimed to deepen community relations, foster
+                        intellectual growth, and sustain a tradition of competition. Now a subset of the Maine
+                        Chess Association (MECA), ChessMaine has hosted over 2,000 tournaments since its inception, 
+                        serving players from over 45 states and 20 nations.
+                    </p>
+                </div>
+
+                <hr id="hr-1">
+
+        <!--TOURNAMENTS-->
+                <div id="find-tournaments" class="container">
+                    <p class="title">Tournaments This Week</p>
+
+                    <div id="tournament-description">
+
+                        <p class="tournament-paragraph">
+                            ChessMaine works hard to promote and encourage chess activity in Maine,
+                            hosting weekly rated tournaments near renowned tourist destinations from Kittery 
+                            to Fort Kent and everywhere in between. Tournaments are open to everyone, from 
+                            chess veterans to those just learning how to move the pieces. All supplies, including
+                            boards and clocks, are provided. Entry fees are modest and directly support the Maine 
+                            Chess Association.
+                        </p>
+
+                    </div>
+
+
+                    <div id="tournament-1" class="row">
+                        <div class="col-0 col-md-6">
+                            <div class="tournament">
+                                <p class="tournament-title">Presque Isle Open</p>
+                                <ul>
+                                    <li><span>Location: </span>181 Main St., Presque Isle, ME 04769</li>
+                                    <li><span>Date: </span>March 20th, 2021</li>
+                                    <li><span>Sections: </span>Open, U1750</li>
+                                    <li><span>Time Control: </span>G60, d5</li>
+                                    <li><span>Entry Fee: </span>$5 (in advance); $10 (same day)</li>
+                                    <li><span>Prizes: </span>1st place (each section): $50</li>
+                                </ul>
+                                <form action="https://wustlcse204.github.io/06-brand-redesign-iyouth23">
+                                    <input type="submit" value="Register" class="button">
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6">
+
+                            <figure>
+                                <!--Source: https://www.billboardsin.com/market/presque-isle-maine-->
+                                <img src="images/presque-isle.jpg" alt="Presque Isle">
+                                <figcaption>Beautiful Presque Isle, Maine</figcaption>
+                            </figure>
+                        </div>
+                    </div>
+
+                    <div id="tournament-2" class="row">
+                        <div class="col-0 col-md-6">
+                            <div class="tournament">
+                                <p class="tournament-title">Bar Harbor Open</p>
+                                <ul>
+                                    <li><span>Location: </span>6 Norman Rd, Bar Harbor, ME 04609</li>
+                                    <li><span>Date: </span>March 20th, 2021</li>
+                                    <li><span>Sections: </span>Open, U1600</li>
+                                    <li><span>Time Control: </span>G45, d5</li>
+                                    <li><span>Entry Fee: </span>$20 (in advance); $25 (same day)</li>
+                                    <li><span>Prizes: </span>1st-2nd place (each section): $100-$50</li>
+                                </ul>
+                                <form action="https://wustlcse204.github.io/06-brand-redesign-iyouth23">
+                                    <input type="submit" value="Register" class="button">
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6">
+
+                            <figure>
+                                <!--Source: https://www.today.com/parents/best-family-vacations-bar-harbor-maine-travel-kids-t127878-->
+                                <img src="images/bar-harbor.jpg" alt="Acadia National Park">
+                                <figcaption>Acadia National Park: just 5 minutes away!</figcaption>
+                            </figure>
+                            </div>
+                    </div>
+
+                    <div id="tournament-3" class="row">
+                        <div class="col-0 col-md-6">
+                            <div class="tournament">
+                                <p class="tournament-title">Downeast RBO</p>
+                                <ul>
+                                    <li><span>Location: </span> 2 Fort Rd, South Portland, ME 04106</li>
+                                    <li><span>Date: </span>March 21th, 2021</li>
+                                    <li><span>Sections: </span>Quads</li>
+                                    <li><span>Time Control: </span>G60, d5</li>
+                                    <li><span>Entry Fee: </span>$5 (in advance); $10 (same day)</li>
+                                    <li><span>Prizes: </span>Trophies for each quad winner</li>
+                                </ul>
+                                <form action="https://wustlcse204.github.io/06-brand-redesign-iyouth23">
+                                    <input type="submit" value="Register" class="button">
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6">
+
+                            <figure>
+                                <!--Source: https://portlandheadlight.com/about-us-->
+                                <img src="images/portland-head-light.jpg" alt="Portland Head Light">
+                                <figcaption>Portland Head Light: just 10 minutes away!</figcaption>
+                            </figure>
+                        </div>
+                    </div>
+
+                    <div id="see-all">
+                        <form action="https://wustlcse204.github.io/06-brand-redesign-iyouth23">
+                            <input type="submit" value="See All Upcoming Tournaments" class="button">
+                        </form>
+                    </div>
+                </div>
+
+                <hr id="hr-2">
+        
+        <!--NEWS-->
+                <div id="news" class="container">
+
+                    <p class="title">ChessMaine in the News</p>
+                    <div id="news-description" class="row">
+                        <div class="col-12 col-md-6">
+                            <div id="news-1" class="news">
+                                <p class="news-title">
+                                    The Story of MECA's International Matches
+                                </p>
+
+                                <!--Source: https://chessmaine.net/chessmaine/news/-->
+                                <p class="news-body">
+                                    Maine Chess Association President Michael Dudley recaps
+                                    the fascinating story of MECA's three international chess
+                                    matches over the past three months. Since December 2020,
+                                    MECA has faced off against the Republic of Tuva, a remote
+                                    Russian republic in Southern Siberia; Bikin, a town in the 
+                                    far-eastern Khabarovsk Krai Region of Russia; and the Tromsø
+                                    Chess Club in Norway.
+                                </p>
+                                <div id="read-more-div">
+                                    <form action="https://wustlcse204.github.io/06-brand-redesign-iyouth23">
+                                        <input type="submit" value="Read More" class="button">
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6">
+
+                            <figure>
+                                <!--Source: https://chessmaine.net/chessmaine/2020/11/maine-defeats-tromso-norway-in.html-->
+                                <img src="images/tromso.jpg" height="240" width="300" alt="Tromso Chess Club">
+                                <figcaption id="pre-get-involved">Members of the Tromsø Chess Club</figcaption>
+                            </figure>
+                            </div>
+                    </div>
+                </div>
+
+                <hr id="hr-3">
+        
+        <!--GET INVOLVED-->
+                <div id="get-involved">
+                    <div id="get-involved-description" class="container">
+
+                        <p id="get-involved-title" class="title">Get Involved</p>
+                        <div id="hero-image-div-2" class="col-12">
+                            <!--Source: https://www.chess.com/article/view/my-first-chess-tournament-->
+                            <img id="hero-image-2" src="images/maine-chess.jpeg" alt="Maine Chess">
+                        </div>
+                         
+                        <p class="get-involved-body"><strong>MECA is always looking for passionate chess players to host
+                            tournaments</strong>. To host, you must be over 18, be familiar with 
+                            the US Chess Federation's <a href="http://www.uschess.org/index.php/Official-Rules/US-Chess-Rulebook-The-Official-Rules-of-Chess-7th-Edition-Tim-Just-Chief-Editor.html">rules and regulations</a>, 
+                            and have an active USCF membership. Being a host qualifies you
+                            for MECA-exclusive tournaments and discounts on entry fees! You can 
+                            apply below immediately, or contact <a href="mailto:not_real_email@chessmaine.net">Michael Dudley</a>
+                            for more information.
+                        </p>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th></th>
+                                    <th>With Host Status</th>
+                                    <th>Without Host Status</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Can Host Events</td>
+                                    <td>Yes</td>
+                                    <td>-</td>
+                                </tr>
+                                <tr class="even-tr">
+                                    <td>Access to MECA-exclusive Events</td>
+                                    <td>Yes</td>
+                                    <td>-</td>
+                                </tr>
+                                <tr>
+                                    <td>Discounted Entry Fee</td>
+                                    <td>Yes</td>
+                                    <td>-</td>
+                                </tr>
+                                <tr class="even-tr">
+                                    <td>Eligible for Open Tournaments</td>
+                                    <td>Yes</td>
+                                    <td>Yes</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <form action="https://wustlcse204.github.io/06-brand-redesign-iyouth23">
+                            <input type="submit" value="Apply For Host" class="button">
+                        </form>
+                    </div>
+                </div>
+
+                <hr>
+
+                <div id="contact-section">
+                    <div id="contact">
+                        <p id="contact-us-title" class="title">Contact and Resources</p>
+                        <div>
+                            <form>
+                                <label id="join-our-mailing-list" for="mailing-list">Join our mailing list to receive tournament updates!</label>
+                                <input type="email" id="mailing-list" placeholder="Email">
+                                <input type="submit" value="Join Us!" class="form-button">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div id="more-navigation-section">
+                    <div id="more-navigation" class="container">
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="resource-guide">
+                                    <p class="more-navigation-title">Player Resources</p>
+                                    <ul>
+                                        <li><a href="https://wustlcse204.github.io/06-brand-redesign-iyouth23">News Archives</a></li>
+                                        <li><a href="https://wustlcse204.github.io/06-brand-redesign-iyouth23">Player/Rating Lookup</a></li>
+                                        <li><a href="https://wustlcse204.github.io/06-brand-redesign-iyouth23">Puzzle of the Day</a></li>
+                                        <li><a href="https://wustlcse204.github.io/06-brand-redesign-iyouth23">Clubs</a></li>
+                                        <li><a href="https://wustlcse204.github.io/06-brand-redesign-iyouth23">Submit Game for Analysis</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="resource-guide">
+                                    <p class="more-navigation-title">Host Resources</p>
+                                    <ul>
+                                        <li><a href="https://wustlcse204.github.io/06-brand-redesign-iyouth23">Host Handbook</a></li>
+                                        <li><a href="https://wustlcse204.github.io/06-brand-redesign-iyouth23">Current Host List</a></li>
+                                        <li><a href="https://wustlcse204.github.io/06-brand-redesign-iyouth23">MECA Membership List</a></li>
+                                        <li><a href="https://wustlcse204.github.io/06-brand-redesign-iyouth23">Notation Sheets (pdf)</a></li>
+                                        <li><a href="https://wustlcse204.github.io/06-brand-redesign-iyouth23">Tournament Archives</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <form>
+                            <input type="search" placeholder="Search this site..." id="search">
+                            <input type="submit" value="Go" class="form-button">
+                        </form>
+                        <p id="last-paragraph">&copy; 2004-2021 ChessMaine. Contact <a href="mailto:ian.youth@wustl.edu">Ian Youth</a> for more information.</p>
+                    </div>
+                </div>
+
+                <hr id="last-hr">
+            </div>
+    </body>
+</html>
